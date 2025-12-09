@@ -90,21 +90,56 @@
         <!-- Titulo e trilha de navegacao -->
         <div class="content-wrapper">
           <div class="content-header">
-            <h2 class="content-title">Dashboard</h2>
+            <h2 class="content-title">Usuários - List</h2>
             <nav class="breadcrumb">
-              <span>Dashboard</span>
+              <a href="adm/dashboard.html" class="breadcrumb-link">Dashboard</a>
+              <span>/</span>
+              <span>Usuários</span>
             </nav>
           </div>
         </div>
 
         <div class="content-box">
           <div class="content-box-header">
-            <h3 class="content-box-title">Página Inicial</h3>
-              <div class="content-box-btn"></div>
+            <h3 class="content-box-title">Listar</h3>
+              <div class="content-box-btn">
+                <a href="adm/user/create.html" class="btn-success">Cadastrar</a>
+              </div>
           </div>
 
-          <div class="content-box-body">
-            Bem-vindo ...!
+          <div class="table-container">
+            <table class="table">
+              <thead >
+                <tr class="table-row-header"r>
+                  <th class="table-header">ID</th>
+                  <th class="table-header">Nome</th>
+                  <th class="table-header hidden lg:table-cell">E-mail</th>
+                  <th class="table-header center">Ações</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-row-body">
+                  <td class="table-body">1</td>
+                  <td class="table-body">Teste</td>
+                  <td class="table-body hidden lg:table-cell">teste@celke.com.br</td>
+                  <td class="table-body table-actions">
+                    <a href="adm/user/view.html" class="btn-primary">Visualizar</a>
+                    <a href="adm/user/edit.html" class="btn-warning hidden md:inline-block">Editar</a>
+                    <a href="#" class="btn-danger hidden md:inline-block">Apagar</a>
+                  </td>
+                </tr>
+                <tr class="table-row-body">
+                  <td class="table-body">2</td>
+                  <td class="table-body">Alfa</td>
+                  <td class="table-body hidden lg:table-cell">alfa@celke.com.br</td>
+                  <td class="table-body table-actions">
+                    <a href="adm/user/view.html" class="btn-primary">Visualizar</a>
+                    <a href="adm/user/edit.html" class="btn-warning hidden md:inline-block">Editar</a>
+                    <a href="#" class="btn-danger hidden md:inline-block">Apagar</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
 </main>

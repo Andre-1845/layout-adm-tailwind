@@ -147,4 +147,121 @@
         @apply block px-4 py-2 text-sm text-gray-50 hover:bg-blue-900;
     }
     /****** Fim Sidebar ******/
+
+    
+    /****** Início Conteúdo Principal ******/
+    .main-content {
+        @apply flex-1 p-4 ml-0 sm:ml-64;
+    }
+
+    .content-wrapper {
+        @apply max-w-7xl mx-auto px-1 sm:px-0 lg:px-0 mb-2;
+    }
+
+    .content-header{
+        @apply flex justify-between items-center;
+    }
+
+    .content-title {
+        @apply text-2xl font-semibold text-blue-900;
+    }
+
+    .breadcrumb {
+        @apply text-sm text-gray-500;
+    }
+
+    .breadcrumb-link {
+        @apply text-blue-500 hover:text-blue-700;
+    }
+
+    .content-box {
+        @apply bg-white shadow-lg sm:rounded-lg text-gray-900 p-4;
+    }
+
+    .content-box-header {
+        @apply flex justify-between items-center border-b-2 border-gray-100 pb-2 mb-3;
+    }
+
+    .content-box-title{
+        @apply text-lg font-semibold text-blue-900;
+    }
+
+    .content-box-btn{
+        @apply flex space-x-1;
+    }
+
+    .content-box-body {
+        @apply bg-gray-50 text-sm p-4;
+    }
+    /****** Fim Conteúdo Principal ******/
+
+     /****** Inicio Tabela Listar Registros ******/
+    .table-container {
+        @apply overflow-hidden bg-white shadow-sm;
+    }
+
+    .table {
+        @apply min-w-full divide-y divide-gray-200 border-separate border-spacing-0;
+    }
+
+    .table-row-header {
+        @apply bg-gray-50;
+    }
+
+    .table-header {
+        @apply px-6 py-3 text-left text-sm font-medium text-gray-800 tracking-wider border-b border-gray-200;
+    }
+
+    .table-header.center {
+        @apply text-center;
+    }
+
+    .table-body {
+        @apply px-6 py-2 text-sm text-gray-950 border-b border-gray-200;
+    }
+
+    .table-row-body {
+        @apply hover:bg-gray-50;
+    }
+
+    .table-actions {
+        @apply text-center space-x-0;
+    }
+
+    /****** Fim Tabela Listar Registros ******/
+
+    /****** Início Botões ******/
+    /* Botão azul */
+    .btn-primary {
+        @apply bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600 transition-colors cursor-pointer;
+    }
+
+    /* Botão azul médio */
+    .btn-primary-md {
+        @apply bg-blue-500 text-white text-base px-3 py-2 rounded hover:bg-blue-600 transition-colors cursor-pointer;
+    }
+
+    /* Botão azul claro */
+    .btn-info {
+        @apply bg-cyan-500 text-white text-sm px-3 py-1 rounded hover:bg-cyan-600 transition-colors cursor-pointer;
+    }
+
+    /* Botão verde */
+    .btn-success {
+        @apply bg-green-500 text-white text-sm px-3 py-1 rounded hover:bg-green-600 transition-colors cursor-pointer;
+    }
+
+    /* Botão amarelo */
+    .btn-warning {
+        @apply bg-yellow-500 text-white text-sm px-3 py-1 rounded hover:bg-yellow-600 transition-colors cursor-pointer;
+    }
+
+    /* Botão vermelho */
+    .btn-danger {
+        @apply bg-red-500 text-white text-sm px-3 py-1 rounded hover:bg-red-600 transition-colors cursor-pointer;
+    }
+
+    /****** Fim Botões ******/
+
+    
 }
